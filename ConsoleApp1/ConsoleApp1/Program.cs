@@ -22,10 +22,6 @@
                     Console.WriteLine(a * b);
                     break;
                 case "/":
-                    if (b == 0)
-                    {
-                        Console.WriteLine("Делить на 0 нельзя");
-                    }
                     Console.WriteLine(a/b);
                     break;
                 case "%":
