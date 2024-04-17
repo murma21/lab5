@@ -22,11 +22,13 @@
                     Console.WriteLine(a * b);
                     break;
                 case "/":
+                    if(b== 0)
+                    {
+                        Console.WriteLine("Нельзя делить на 0");
+                    }
                     Console.WriteLine(a/b);
                     break;
-                case "%":
-                    Console.WriteLine(a%b);
-                    break;
+
 
             }
         }
